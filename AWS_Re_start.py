@@ -37,7 +37,7 @@ animal = input("What is your favorite animal? ")
 print("{}, you like a {} {}!".format(name,color,animal))
 #************************************************************************************
 #Conditional
-age=18
+age=19
 if age>18:
     print("You are eligble to vote")
 elif age==18:
