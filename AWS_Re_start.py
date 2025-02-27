@@ -64,6 +64,11 @@ print(type(myFavoriteFruitDictionary))
 print(myFavoriteFruitDictionary["Akua"])
 print(myFavoriteFruitDictionary["Saanvi"])
 print(myFavoriteFruitDictionary["Paulo"])
+#************************************************************************************
+#Creating Mixed-type Lists
+myMixedTypeList = [45, 290578, 1.02, True, "My dog is on the bed.", "45"]
+for item in myMixedTypeList:
+    print("{} is of the data type {}".format(item,type(item)))
 #Conditional
 age=19
 if age>18:
