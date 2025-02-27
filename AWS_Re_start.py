@@ -136,7 +136,7 @@ else:
     print("You cannot vote")
 
 userReply = input("Do you need to ship a cargo? (Enter Yes or No)")
-if userReply=="Yes" or userReply=="yes":
+if userReply=="Yes".strip().lower():
     print("We can Help you ship that package!")
 else:
     print("Please come back when you need to ship a package")
