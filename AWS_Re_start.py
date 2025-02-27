@@ -1,8 +1,18 @@
 #************************************************************************************
 #Getting started with python
+import sys
 print("Hello, world")
 print("Please note this repo covers Intro to python")
 print("Prepared by: Daniel Mwendwa")
+def next_session():
+    response = input("Would you like to go to the next session? (yes/no): ").strip().lower()
+    if response == "yes":
+        print("Proceeding to the next session...")
+    else:
+        print("Exiting...")
+        sys.exit()
+
+next_session()
 #************************************************************************************
 
 #Numeric Data types
@@ -19,6 +29,7 @@ myValue=5J
 print(myValue)
 print(type(myValue))
 print(str(myValue) + " is of the data type " + str(type(myValue)))
+next_session()
 #************************************************************************************
 #string Data types
 myString="This is my string"
@@ -35,6 +46,7 @@ print(name)
 color = input("What is your favorite color? ")
 animal = input("What is your favorite animal? ")
 print("{}, you like a {} {}!".format(name,color,animal))
+next_session()
 #************************************************************************************
 
 #Lists, Tuples, and Dictionaries
@@ -64,11 +76,13 @@ print(type(myFavoriteFruitDictionary))
 print(myFavoriteFruitDictionary["Akua"])
 print(myFavoriteFruitDictionary["Saanvi"])
 print(myFavoriteFruitDictionary["Paulo"])
+next_session()
 #************************************************************************************
 #Creating Mixed-type Lists
 myMixedTypeList = [45, 290578, 1.02, True, "My dog is on the bed.", "45"]
 for item in myMixedTypeList:
     print("{} is of the data type {}".format(item,type(item)))
+next_session()
 #************************************************************************************
 #Working with composite Data types
 import csv
@@ -110,6 +124,7 @@ with open('car_fleet.csv') as csvFile:
             myInventoryList.append(currentVehicle)  
             lineCount += 1  
     print(f'Processed {lineCount} lines.')
+next_session()
 #************************************************************************************
 #Conditional
 age=19
@@ -119,4 +134,22 @@ elif age==18:
     print("Apply for the National ID")
 else:
     print("You cannot vote")
+
+userReply = input("Do you need to ship a cargo? (Enter Yes or No)")
+if userReply=="Yes" or userReply=="yes":
+    print("We can Help you ship that package!")
+else:
+    print("Please come back when you need to ship a package")
+    
+userReply = input("Would you like to buy stamps, buy an envelope, or make a copy? (Enter stamps, envelope, or copy) ")
+if userReply == "stamps":
+    print("We have many stamp designs to choose from.")
+elif userReply == "envelope":
+    print("We have many envelope sizes to choose from.")
+elif userReply == "copy":
+    copies = input("How many copies would you like? (Enter a number) ")
+    print("Here are {} copies.".format(copies))
+else:
+    print("Thank you, please come again.")
+next_session()
 #************************************************************************************
