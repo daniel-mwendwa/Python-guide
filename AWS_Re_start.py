@@ -36,6 +36,16 @@ color = input("What is your favorite color? ")
 animal = input("What is your favorite animal? ")
 print("{}, you like a {} {}!".format(name,color,animal))
 #************************************************************************************
+
+#Lists, Tuples, and Dictionaries
+myFruitList = ["apple", "banana", "cherry"]
+print(myFruitList)
+print(type(myFruitList))
+print(myFruitList[0])
+print(myFruitList[1])
+print(myFruitList[2])
+myFruitList[2] = "orange"
+print(myFruitList)
 #Conditional
 age=19
 if age>18:
