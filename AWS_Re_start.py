@@ -124,6 +124,10 @@ with open('car_fleet.csv') as csvFile:
             myInventoryList.append(currentVehicle)  
             lineCount += 1  
     print(f'Processed {lineCount} lines.')
+    for myCarProperties in myInventoryList:
+        for key, value in myCarProperties.items():
+            print("{} : {}".format(key,value))
+            print("-----")
 next_session()
 #************************************************************************************
 #Conditional
