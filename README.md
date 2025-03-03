@@ -56,7 +56,7 @@ This repository contains learning progress, assignments, and lab exercises from 
 4. Push your changes to track your progress:
    ```sh
    git add .
-   git commit -m "Completed Lab XYZ"
+   git commit -m "I made additional Changes to the following Lab"
    git push origin main
    ```
 
