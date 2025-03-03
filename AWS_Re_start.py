@@ -218,6 +218,7 @@ print("Error percentage: " + str(((molecularWeightInsulin - molecularWeightInsul
 next_session()
 #************************************************************************************
 #using functions to implement caesar cipher
+#This part covers Python functions
 def getDoubleAlphabet(alphabet):
     doubleAlphabet = alphabet + alphabet
     return doubleAlphabet
