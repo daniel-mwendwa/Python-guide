@@ -262,7 +262,7 @@ next_session()
 #************************************************************************************
 #creating File handlers and Modules  ---> Lab 126
 import jsonFileHandler
-data = jsonFileHandler.readJsonFile('files/insulin.json')
+data = jsonFileHandler.readJsonFile('insulin.json')
 if data != "":
     bInsulin = data['molecules']['bInsulin']
     aInsulin = data['molecules']['aInsulin']
