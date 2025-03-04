@@ -3,7 +3,7 @@
 import sys
 print("Hello, world")
 print("Please note this repo covers Intro to python")
-print("Prepared by: Daniel Mwendwa")
+print("Author: Daniel Mwendwa")
 def next_session():
     response = input("Would you like to go to the next session? (yes/no): ").strip().lower()
     if response == "yes":
