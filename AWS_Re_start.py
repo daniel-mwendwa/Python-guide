@@ -284,4 +284,13 @@ if data != "":
     print("Percent error: " + str(((molecularWeightInsulin - molecularWeightInsulinActual)/molecularWeightInsulinActual)*100))
 else:
     print("Error. Exiting program")
-    
+next_session()
+#************************************************************************************
+#System Adminstration with python -->Lab 128
+import os
+import subprocess
+os.system("ls")
+subprocess.run(["ls"])
+subprocess.run(["ls","-l","README.md"])
+command="uname"
+commandArgument="-a"
