@@ -300,3 +300,11 @@ command="ps"
 commandArgument="-x"
 print(f'Gathering active process information with command: {command} {commandArgument}')
 subprocess.run([command,commandArgument])  
+next_session()
+#************************************************************************************
+# using Debugger. This Lab explains how to use python debugger.
+#debugger is a tools that is used to find bugs in a code. See instructions on how to use the python debugger online. Explore with this code.
+name = "John"
+print("Hello " + name + ".")
+age = 40
+print(name + " is " + str(age) + " years old.")
