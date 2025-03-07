@@ -289,18 +289,19 @@ next_session()
 #Python for system Admins --->Lab 128
 import os
 import subprocess
-os.system("ls")
-subprocess.run(["ls"])
-subprocess.run(["ls","-l","README.md"])
-command="uname"
-commandArgument="-a"
-print(f'Gathering system information with command: {command} {commandArgument}')
-subprocess.run([command,commandArgument])
-command="ps"
-commandArgument="-x"
-print(f'Gathering active process information with command: {command} {commandArgument}')
-subprocess.run([command,commandArgument])  
-next_session()
+
+os.system("dir")  # Windows equivalent of 'ls'
+subprocess.run(["cmd", "/c", "dir"])  # Run 'dir' in a subprocess
+subprocess.run(["cmd", "/c", "dir", "/b", "README.md"])  # Equivalent to 'ls -l README.md'
+
+command = "systeminfo"
+print(f'Gathering system information with command: {command}')
+subprocess.run(["cmd", "/c", command])
+
+command = "tasklist"
+print(f'Gathering active process information with command: {command}')
+subprocess.run(["cmd", "/c", command])
+
 #************************************************************************************
 # using Debugger. This Lab explains how to use python debugger.
 #debugger is a tools that is used to find bugs in a code. See instructions on how to use the python debugger online. Explore with this code.
@@ -334,3 +335,8 @@ with open(file_path, "w") as file:
     file.write("\n".join(prime_numbers))
 
 print(f"Prime numbers between 1 and 250 have been written to {file_path}")
+#************************************************************************************
+next_session()
+print("CONGRATULATIONS!!!, You Have made it through the AWS python module")
+print("I wish you all the best as you move to the Next session ---> Database")
+print("Check out My Linkedin On the README File Just incase you need Clarification")
