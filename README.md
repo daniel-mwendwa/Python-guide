@@ -65,4 +65,4 @@ This project follows the [MIT License](LICENSE).
 
 ## Author
 **Daniel M. Mwithui**  
-[LinkedIn](https://www.linkedin.com/in/daniel-mwendwa-bsc-a475311b7/) | [GitHub](https://github.com/daniel-mwendwa)
+[LinkedIn](https://www.linkedin.com/in/daniel-mwendwa-mwithui/) | [GitHub](https://github.com/daniel-mwendwa)
