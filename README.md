@@ -41,7 +41,7 @@ This repository contains learning progress, assignments, and lab exercises from 
 - [Lab] Configuration Management
 
 ### **Final Challenge**
-- [Lab] [Challenge] Python Exercise
+- [Lab] [Challenge] Python Exercise On python scripting
 
 ## How to Use This Repository
 1. Clone the repository:
