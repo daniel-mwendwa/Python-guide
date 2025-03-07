@@ -308,3 +308,29 @@ name = "John"
 print("Hello " + name + ".")
 age = 40
 print(name + " is " + str(age) + " years old.")
+next_session()
+#************************************************************************************
+#Here is the addition of the for the python challenge code --> Lab 141
+import os
+
+def is_prime(n):
+    if n < 2:
+        return False
+    for i in range(2, int(n ** 0.5) + 1):
+        if n % i == 0:
+            return False
+    return True
+
+# Generate prime numbers between 1 and 250
+prime_numbers = [str(num) for num in range(1, 251) if is_prime(num)]
+
+# Define file path and create directory if not exists
+file_dir = "/home/user/prime_numbers"
+os.makedirs(file_dir, exist_ok=True)
+file_path = os.path.join(file_dir, "results.txt")
+
+# Write results to a file
+with open(file_path, "w") as file:
+    file.write("\n".join(prime_numbers))
+
+print(f"Prime numbers between 1 and 250 have been written to {file_path}")
