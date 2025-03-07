@@ -337,6 +337,6 @@ with open(file_path, "w") as file:
 print(f"Prime numbers between 1 and 250 have been written to {file_path}")
 #************************************************************************************
 next_session()
-print("CONGRATULATIONS!!!, You Have made it through the AWS python module")
+print("CONGRATULATIONS!!!, You Have made it through the AWS python module!")
 print("I wish you all the best as you move to the Next session ---> Database")
-print("Check out My Linkedin On the README File Just incase you need Clarification")
+print("Check out My Linkedin profile On the README.md File Just incase you need Clarification.")
