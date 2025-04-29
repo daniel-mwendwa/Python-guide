@@ -1,6 +1,6 @@
 #************************************************************************************
 #Getting started with python
-import sys   
+import sys  
 print("Hello, world")
 print("Please note this repo covers Intro to python")
 print("Author: Daniel Mwendwa")
