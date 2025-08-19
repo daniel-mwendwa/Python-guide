@@ -4,7 +4,7 @@
 This repository contains learning progress, assignments, and lab exercises from the **AWS re/Start Python Programming Module**. The training covers fundamental Python concepts, flow control, functions, modules, system administration, debugging, DevOps, configuration management, and automation.
 
 ## Course Modules & Labs   
-
+ 
 ### **Python Basics**  
 - Introduction to Python Programming (Parts 1 - 4)
 - [Lab] Hello World
