@@ -10,7 +10,7 @@ This repository contains learning progress, assignments, and lab exercises from 
 - [Lab] Hello World
 - [Lab] Numeric Data Types
 - [Lab] String Data Type
-- [Lab] List, Tuple, Dictionary 
+- [Lab] List, Tuple, Dictionary  
 - [Lab] Categorize Values 
 - [Lab] Composite Data Types
 
