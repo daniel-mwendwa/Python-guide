@@ -11,7 +11,7 @@ This repository contains learning progress, assignments, and lab exercises from 
 - [Lab] Numeric Data Types
 - [Lab] String Data Type
 - [Lab] List, Tuple, Dictionary 
-- [Lab] Categorize Values
+- [Lab] Categorize Values 
 - [Lab] Composite Data Types
 
 ### **Flow Control & Loops**
