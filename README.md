@@ -5,7 +5,7 @@ This repository contains learning progress, and lab exercises from the **AWS re/
 
 ## Course Modules & Labs
  
-### **Python Basics**
+### **Python Basics** 
 - Introduction to Python Programming (Parts 1 - 4)
 - [Lab] Hello World
 - [Lab] Numeric Data Types
