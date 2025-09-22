@@ -9,7 +9,7 @@ This repository contains learning progress, and lab exercises from the **AWS re/
 - Introduction to Python Programming (Parts 1 - 4)
 - [Lab] Hello World 
 - [Lab] Numeric Data Types
-- [Lab] String Data Type
+- [Lab] String Data Type 
 - [Lab] List, Tuple, Dictionary
 - [Lab] Categorize Values
 - [Lab] Composite Data Types
