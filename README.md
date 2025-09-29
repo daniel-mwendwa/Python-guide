@@ -11,7 +11,7 @@ This repository contains learning progress, and lab exercises from the **AWS re/
 - [Lab] Numeric Data Types
 - [Lab] String Data Type
 - [Lab] List, Tuple, Dictionary
-- [Lab] Categorize Values
+- [Lab] Categorize Values 
 - [Lab] Composite Data Types
 
 ### **Flow Control & Loops**
