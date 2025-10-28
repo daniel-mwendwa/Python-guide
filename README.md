@@ -1,6 +1,6 @@
 #  Python Module. 
 
-## Description     
+## Description    
 This repository contains learning progress, and lab exercises from the **Python Programming Module**. The training covers fundamental Python concepts, flow control, functions, modules, system administration, debugging, DevOps, configuration management, and automation. 
   
 ## Course Modules & Labs     
