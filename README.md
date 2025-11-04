@@ -7,7 +7,7 @@ This repository contains learning progress, and lab exercises from the **Python 
 
 ### **Python Basics**
 - Introduction to Python Programming (Parts 1 - 4)
-- [Lab] Hello World
+- [Lab] Hello World 
 - [Lab] Numeric Data Types
 - [Lab] String Data Type
 - [Lab] List, Tuple, Dictionary
